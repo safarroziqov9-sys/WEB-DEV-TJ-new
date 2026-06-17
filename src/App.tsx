@@ -720,7 +720,7 @@ function AppContent(p: ContentProps) {
           </div>
           <div className="portfolio-grid">
             <div className="pf-card reveal" onClick={() => window.open("https://remonttj.netlify.app", "_blank")}>
-              <img src="/images/websites-showcase.jpg" alt="" />
+              <img src="/WEB-DEV-TJ-new/images/websites-showcase.jpg" alt="" />
               <div className="pf-arrow">↗</div>
               <div className="pf-overlay">
                 <div className="pf-title">{t.pfCommercial}</div>
@@ -729,7 +729,7 @@ function AppContent(p: ContentProps) {
               </div>
             </div>
             <div className="pf-card reveal" onClick={() => window.open("https://t.me/tajik_construction_crm_bot", "_blank")}>
-              <img src="/images/telegram-bot.jpg" alt="" />
+              <img src="/WEB-DEV-TJ-new/images/telegram-bot.jpg" alt="" />
               <div className="pf-arrow">↗</div>
               <div className="pf-overlay">
                 <div className="pf-title">{t.pfBotCrm}</div>
@@ -738,7 +738,7 @@ function AppContent(p: ContentProps) {
               </div>
             </div>
             <div className="pf-card reveal" onClick={() => p.openModal("portfolio")}>
-              <img src="/images/portfolio-modern.jpg" alt="" />
+              <img src="/WEB-DEV-TJ-new/images/portfolio-modern.jpg" alt="" />
               <div className="pf-arrow">↗</div>
               <div className="pf-overlay">
                 <div className="pf-title">{t.pfLanding}</div>
@@ -880,7 +880,7 @@ function ModalWeb({ t }: { t: typeof translations[Lang] }) {
           <p className="modal-lead">{t.mWebLead}</p>
         </div>
         <div className="modal-shot">
-          <img src="/images/websites-showcase.jpg" alt="" />
+          <img src="/WEB-DEV-TJ-new/images/websites-showcase.jpg" alt="" />
           <div className="modal-shot-badge">{t.mWebBadge}</div>
         </div>
       </div>
@@ -921,7 +921,7 @@ function ModalBot({ t }: { t: typeof translations[Lang] }) {
           <p className="modal-lead">{t.mBotLead}</p>
         </div>
         <div className="modal-shot">
-          <img src="/images/telegram-bot.jpg" alt="" />
+          <img src="/WEB-DEV-TJ-new/images/telegram-bot.jpg" alt="" />
           <div className="modal-shot-badge">{t.mBotBadge}</div>
         </div>
       </div>
