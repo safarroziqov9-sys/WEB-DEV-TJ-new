@@ -720,7 +720,7 @@ function AppContent(p: ContentProps) {
           </div>
           <div className="portfolio-grid">
             <div className="pf-card reveal" onClick={() => window.open("https://remonttj.netlify.app", "_blank")}>
-              <img src="/images/websites-showcase.jpg" alt="" />
+              <img src="/WEB-DEV-TJ-new/images/websites-showcase.jpg" alt="" />
               <div className="pf-arrow">↗</div>
               <div className="pf-overlay">
                 <div className="pf-title">{t.pfCommercial}</div>
