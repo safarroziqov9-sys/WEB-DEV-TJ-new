@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  base: "/WEB-DEV-TJ/",
+  base: "/WEB-DEV-TJ-new/",
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {

@@ -921,7 +921,7 @@ function ModalBot({ t }: { t: typeof translations[Lang] }) {
           <p className="modal-lead">{t.mBotLead}</p>
         </div>
         <div className="modal-shot">
-          <img src="/images/telegram-bot.jpg" alt="" />
+          <img src="/images/websites-showcase.jpg" alt="" />
           <div className="modal-shot-badge">{t.mBotBadge}</div>
         </div>
       </div>
